@@ -6,7 +6,232 @@
     <description>Recent content in Tags on Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 02 Nov 2022 08:38:19 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 00:09:11 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>chatgpt</title>
+      <link>https://imlauera.github.io/tags/chatgpt/</link>
+      <pubDate>Thu, 23 Mar 2023 00:09:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>consola</title>
+      <link>https://imlauera.github.io/tags/consola/</link>
+      <pubDate>Thu, 23 Mar 2023 00:09:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/consola/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dall-e</title>
+      <link>https://imlauera.github.io/tags/dall-e/</link>
+      <pubDate>Thu, 23 Mar 2023 00:09:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/dall-e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>descargar</title>
+      <link>https://imlauera.github.io/tags/descargar/</link>
+      <pubDate>Sun, 19 Mar 2023 03:20:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/descargar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>https://imlauera.github.io/tags/youtube/</link>
+      <pubDate>Sun, 19 Mar 2023 03:20:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neovim</title>
+      <link>https://imlauera.github.io/tags/neovim/</link>
+      <pubDate>Thu, 09 Mar 2023 21:05:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/neovim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cambiar dns</title>
+      <link>https://imlauera.github.io/tags/cambiar-dns/</link>
+      <pubDate>Thu, 09 Mar 2023 18:37:44 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/cambiar-dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>https://imlauera.github.io/tags/debian/</link>
+      <pubDate>Thu, 09 Mar 2023 18:37:44 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns</title>
+      <link>https://imlauera.github.io/tags/dns/</link>
+      <pubDate>Thu, 09 Mar 2023 18:37:44 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>instalacion</title>
+      <link>https://imlauera.github.io/tags/instalacion/</link>
+      <pubDate>Tue, 07 Mar 2023 05:14:57 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/instalacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>https://imlauera.github.io/tags/latex/</link>
+      <pubDate>Tue, 07 Mar 2023 05:14:57 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comandos</title>
+      <link>https://imlauera.github.io/tags/comandos/</link>
+      <pubDate>Fri, 03 Mar 2023 19:40:57 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/comandos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware</title>
+      <link>https://imlauera.github.io/tags/hardware/</link>
+      <pubDate>Fri, 03 Mar 2023 19:40:57 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alpine</title>
+      <link>https://imlauera.github.io/tags/alpine/</link>
+      <pubDate>Sat, 19 Nov 2022 18:18:06 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/alpine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kvm</title>
+      <link>https://imlauera.github.io/tags/kvm/</link>
+      <pubDate>Sat, 19 Nov 2022 07:27:30 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/kvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qemu</title>
+      <link>https://imlauera.github.io/tags/qemu/</link>
+      <pubDate>Sat, 19 Nov 2022 07:27:30 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/qemu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virt-manager</title>
+      <link>https://imlauera.github.io/tags/virt-manager/</link>
+      <pubDate>Sat, 19 Nov 2022 07:27:30 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/virt-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://imlauera.github.io/tags/bash/</link>
+      <pubDate>Sat, 19 Nov 2022 01:54:18 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>juegos</title>
+      <link>https://imlauera.github.io/tags/juegos/</link>
+      <pubDate>Wed, 16 Nov 2022 05:46:20 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/juegos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://imlauera.github.io/tags/linux/</link>
+      <pubDate>Wed, 16 Nov 2022 02:13:52 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>estafa</title>
+      <link>https://imlauera.github.io/tags/estafa/</link>
+      <pubDate>Tue, 15 Nov 2022 14:53:14 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/estafa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lokinet</title>
+      <link>https://imlauera.github.io/tags/lokinet/</link>
+      <pubDate>Fri, 04 Nov 2022 06:09:49 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/lokinet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jpeg</title>
+      <link>https://imlauera.github.io/tags/jpeg/</link>
+      <pubDate>Fri, 04 Nov 2022 04:08:47 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/jpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>png</title>
+      <link>https://imlauera.github.io/tags/png/</link>
+      <pubDate>Fri, 04 Nov 2022 04:08:47 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/png/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webp</title>
+      <link>https://imlauera.github.io/tags/webp/</link>
+      <pubDate>Fri, 04 Nov 2022 04:08:47 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/webp/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>systemd</title>
       <link>https://imlauera.github.io/tags/systemd/</link>
@@ -31,15 +256,6 @@
       <pubDate>Wed, 02 Nov 2022 07:33:35 -0300</pubDate>
       
       <guid>https://imlauera.github.io/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>youtube</title>
-      <link>https://imlauera.github.io/tags/youtube/</link>
-      <pubDate>Wed, 02 Nov 2022 01:44:21 -0300</pubDate>
-      
-      <guid>https://imlauera.github.io/tags/youtube/</guid>
       <description></description>
     </item>
     
@@ -71,11 +287,128 @@
     </item>
     
     <item>
-      <title>debian</title>
-      <link>https://imlauera.github.io/tags/debian/</link>
-      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <title>archivos</title>
+      <link>https://imlauera.github.io/tags/archivos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://imlauera.github.io/tags/debian/</guid>
+      <guid>https://imlauera.github.io/tags/archivos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>armado pc</title>
+      <link>https://imlauera.github.io/tags/armado-pc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/armado-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beamer</title>
+      <link>https://imlauera.github.io/tags/beamer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/beamer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c</title>
+      <link>https://imlauera.github.io/tags/c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>canales de audio</title>
+      <link>https://imlauera.github.io/tags/canales-de-audio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/canales-de-audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cifrar</title>
+      <link>https://imlauera.github.io/tags/cifrar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/cifrar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command line tool</title>
+      <link>https://imlauera.github.io/tags/command-line-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/command-line-tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>correoargentino</title>
+      <link>https://imlauera.github.io/tags/correoargentino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/correoargentino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>costo envio</title>
+      <link>https://imlauera.github.io/tags/costo-envio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/costo-envio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>duckduckgo</title>
+      <link>https://imlauera.github.io/tags/duckduckgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/duckduckgo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exif viewer</title>
+      <link>https://imlauera.github.io/tags/exif-viewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/exif-viewer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extensiones</title>
+      <link>https://imlauera.github.io/tags/extensiones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/extensiones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>freebsd</title>
+      <link>https://imlauera.github.io/tags/freebsd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/freebsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generacion qt</title>
+      <link>https://imlauera.github.io/tags/generacion-qt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/generacion-qt/</guid>
       <description></description>
     </item>
     
@@ -85,6 +418,177 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://imlauera.github.io/tags/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lista</title>
+      <link>https://imlauera.github.io/tags/lista/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/lista/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://imlauera.github.io/tags/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mpv</title>
+      <link>https://imlauera.github.io/tags/mpv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/mpv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>navegador</title>
+      <link>https://imlauera.github.io/tags/navegador/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/navegador/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pandoc</title>
+      <link>https://imlauera.github.io/tags/pandoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/pandoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ponzi</title>
+      <link>https://imlauera.github.io/tags/ponzi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/ponzi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powerpoint</title>
+      <link>https://imlauera.github.io/tags/powerpoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/powerpoint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentaciones</title>
+      <link>https://imlauera.github.io/tags/presentaciones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/presentaciones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pulseaudio</title>
+      <link>https://imlauera.github.io/tags/pulseaudio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/pulseaudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>punteros</title>
+      <link>https://imlauera.github.io/tags/punteros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/punteros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qr</title>
+      <link>https://imlauera.github.io/tags/qr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/qr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resolucion</title>
+      <link>https://imlauera.github.io/tags/resolucion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/resolucion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>svelte3</title>
+      <link>https://imlauera.github.io/tags/svelte3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/svelte3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>texto a voz</title>
+      <link>https://imlauera.github.io/tags/texto-a-voz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/texto-a-voz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tty</title>
+      <link>https://imlauera.github.io/tags/tty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/tty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://imlauera.github.io/tags/vim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vpn</title>
+      <link>https://imlauera.github.io/tags/vpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xq</title>
+      <link>https://imlauera.github.io/tags/xq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/xq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yq</title>
+      <link>https://imlauera.github.io/tags/yq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/tags/yq/</guid>
       <description></description>
     </item>
     

@@ -6,14 +6,30 @@
     <description>Recent content in editores on Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://imlauera.github.io/categories/editores/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Mar 2023 21:05:11 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/categories/editores/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>VIM vs NEOVIM</title>
-      <link>https://imlauera.github.io/post/vim_vs_neovim/</link>
-      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <title>ChatGPT en Neovim</title>
+      <link>https://imlauera.github.io/post/chatgpt-en-neovim/</link>
+      <pubDate>Thu, 09 Mar 2023 21:05:11 -0300</pubDate>
       
-      <guid>https://imlauera.github.io/post/vim_vs_neovim/</guid>
-      <description> NeoVIM usa LUA para archivos de configuracion y VIM tiene su propio lenguage.  </description>
+      <guid>https://imlauera.github.io/post/chatgpt-en-neovim/</guid>
+      <description>Instala este plugin https://github.com/dpayne/CodeGPT.nvim
+Instalando el plugin usando packer en init.lua agregar
+use(&amp;#34;nvim-lua/plenary.nvim&amp;#34;) use(&amp;#34;MunifTanjim/nui.nvim&amp;#34;) use(&amp;#34;dpayne/CodeGPT.nvim&amp;#34;) Lista de comandos https://github.com/dpayne/CodeGPT.nvim#commands</description>
+    </item>
+    
+    <item>
+      <title>Como uso VIM, guía definitiva.</title>
+      <link>https://imlauera.github.io/post/2021-01-02-como-uso-vim-un-resumen-de-sus-funciones-principales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/post/2021-01-02-como-uso-vim-un-resumen-de-sus-funciones-principales/</guid>
+      <description>Entrando y saliendo de VIM. vim nombre_del_archivo para abrir vim
+:w: guarda el archivo.
+:q sale, :q! para forzar la salida. :wq guarda y sale.
+:x sale y guarda, equivalente a wq.
+Se puede salir usando también Shift+zq (salir sin guardar :q) o Shift+zz (guardar y salir que es equivalente a :wq o :x)
+Si abrís vim sin el nombre del archivo. O sea sólo escribiendo vim, cuando guardás vas a tener que asignar el nombre del archivo haciendo :w &amp;lt;nombre del archivo&amp;gt;</description>
     </item>
     
   </channel>

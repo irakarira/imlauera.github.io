@@ -6,13 +6,85 @@
     <description>Recent content in Categories on Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 02 Nov 2022 08:38:19 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 00:09:11 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux</title>
       <link>https://imlauera.github.io/categories/linux/</link>
-      <pubDate>Wed, 02 Nov 2022 08:38:19 -0300</pubDate>
+      <pubDate>Thu, 23 Mar 2023 00:09:11 -0300</pubDate>
       
       <guid>https://imlauera.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command line tools</title>
+      <link>https://imlauera.github.io/categories/command-line-tools/</link>
+      <pubDate>Sun, 19 Mar 2023 03:20:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/command-line-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>editores</title>
+      <link>https://imlauera.github.io/categories/editores/</link>
+      <pubDate>Thu, 09 Mar 2023 21:05:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/editores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>https://imlauera.github.io/categories/networking/</link>
+      <pubDate>Thu, 09 Mar 2023 18:37:44 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware</title>
+      <link>https://imlauera.github.io/categories/hardware/</link>
+      <pubDate>Fri, 03 Mar 2023 19:40:57 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>offtopic</title>
+      <link>https://imlauera.github.io/categories/offtopic/</link>
+      <pubDate>Tue, 15 Nov 2022 14:53:14 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/offtopic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>formatos</title>
+      <link>https://imlauera.github.io/categories/formatos/</link>
+      <pubDate>Fri, 04 Nov 2022 04:08:47 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/formatos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>https://imlauera.github.io/categories/news/</link>
+      <pubDate>Wed, 02 Nov 2022 07:55:35 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>noticias</title>
+      <link>https://imlauera.github.io/categories/noticias/</link>
+      <pubDate>Wed, 02 Nov 2022 07:33:35 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/noticias/</guid>
       <description></description>
     </item>
     
@@ -22,6 +94,42 @@
       <pubDate>Wed, 02 Nov 2022 01:44:21 -0300</pubDate>
       
       <guid>https://imlauera.github.io/categories/programacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>buscadores</title>
+      <link>https://imlauera.github.io/categories/buscadores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/buscadores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command line tool</title>
+      <link>https://imlauera.github.io/categories/command-line-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/command-line-tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>commmand line tool</title>
+      <link>https://imlauera.github.io/categories/commmand-line-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/commmand-line-tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>https://imlauera.github.io/categories/unix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/categories/unix/</guid>
       <description></description>
     </item>
     

@@ -401,7 +401,7 @@ Luego basta con reiniciar pulseaudio, con pulseaudio -k</description>
       <description>Game Manager usados:
  Lutris, PlayOnLinux, Steam.
  Actualmente instalados y funcionando perfectamente, usando Vulkan. En Debian tuve que instalar el paquete: nvidia-vulkan-common
- HearthStone, Minecraft, League Of Legends, CSGO, Dota2, Dota Underlords, Unturned, WarFrame, World Of Warcraft, Classic Doom
+ HearthStone, Minecraft, League Of Legends, CSGO, Dota2, Dota Underlords, Unturned, WarFrame, World Of Warcraft, Brutal Doom
  Pude también correr el emulador de PS2 (PCSX2), y el emulador de PS3 (RPCS3). Los juegos que probé con el emulador de PS2 fueron:
  Resident Evil 4, Guitar Hero</description>
     </item>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on ANDRES IMLAUER BLOG</title>
+    <title>linux on Personal Blog</title>
     <link>https://imlauera.github.io/tags/linux/</link>
-    <description>Recent content in linux on ANDRES IMLAUER BLOG</description>
+    <description>Recent content in linux on Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://imlauera.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language>
+    <lastBuildDate>Wed, 16 Nov 2022 02:13:52 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Actualizando a Testing desde Debian Stable</title>
-      <link>https://imlauera.github.io/post/2021-01-06-actualizando-a-testing-desde-debian-stable/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Porqué Linux Es Superior</title>
+      <link>https://imlauera.github.io/post/porque-linux-es-superior/</link>
+      <pubDate>Wed, 16 Nov 2022 02:13:52 -0300</pubDate>
       
-      <guid>https://imlauera.github.io/post/2021-01-06-actualizando-a-testing-desde-debian-stable/</guid>
-      <description>Cómo funciona Debian de pruebas, Testing Los paquetes desde Debian inestable entran automáticamente en la siguiente distribución estable de pruebas(Debian Testing), cuando una lista de requerimientos se completa:
-  El paquete ha estado en &amp;ldquo;inestable&amp;rdquo;(unstable) por lo menos 2-10 días (dependiendo de la urgencia de la subida).    Se ha construido el paquete para todas las arquitecturas para las que la presente versión de pruebas fue construida. Instalar el paquete en pruebas no hará la distribución menos instalable.</description>
+      <guid>https://imlauera.github.io/post/porque-linux-es-superior/</guid>
+      <description>Cada día es más fácil pasarse a una distro de GNU/Linux por que la mayoría de personas tienen sus necesidades satisfechas simplemente usando un navegador web además el soporte para hardware es gigante incluso las impresoras están mejores soportas que en Windows. Además es muchísimo más cómodo programar en GNU/Linux que en Windows.
+El código del kernel Linux es superior al de Windows y al de Mac. En las distros de GNU/Linux los programas se instalan desde los repositorios oficiales, no como en Windows que vas googleando y bajas un instalador de una página aleatoria injunable, bueno ahora hay una Windows Store pero igual sigue siendo una cagada nada se compara a la calidade software que tiene GNU/Linux porque los programas que están disponibles en los repositorios son constantemente auditados y filtrados por hackers, esto le da a GNU/Linux una inmensa ventaja en términos de seguridad.</description>
     </item>
     
   </channel>

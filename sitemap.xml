@@ -1,7 +1,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+      <loc>https://imlauera.github.io/categories/</loc>
+      <lastmod>2023-03-23T00:09:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/chatgpt/</loc>
+      <lastmod>2023-03-23T00:09:11-03:00</lastmod>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/como-usar-chatgpt-consola/</loc>
+      <lastmod>2023-03-23T00:09:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/consola/</loc>
+      <lastmod>2023-03-23T00:09:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/dall-e/</loc>
+      <lastmod>2023-03-23T00:09:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/linux/</loc>
       <lastmod>2023-03-23T00:09:11-03:00</lastmod>
     </url>
     
@@ -16,7 +41,27 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/</loc>
+      <lastmod>2023-03-23T00:09:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/command-line-tools/</loc>
+      <lastmod>2023-03-19T03:20:11-03:00</lastmod>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/download_and_concat/</loc>
+      <lastmod>2023-03-19T03:20:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/descargar/</loc>
+      <lastmod>2023-03-19T03:20:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/youtube/</loc>
       <lastmod>2023-03-19T03:20:11-03:00</lastmod>
     </url>
     
@@ -26,8 +71,43 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/categories/editores/</loc>
+      <lastmod>2023-03-09T21:05:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/neovim/</loc>
+      <lastmod>2023-03-09T21:05:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/cambiar-dns/</loc>
+      <lastmod>2023-03-09T18:37:44-03:00</lastmod>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/cambiar_dns_debian/</loc>
       <lastmod>2023-03-09T18:37:44-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/debian/</loc>
+      <lastmod>2023-03-09T18:37:44-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/dns/</loc>
+      <lastmod>2023-03-09T18:37:44-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/networking/</loc>
+      <lastmod>2023-03-09T18:37:44-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/instalacion/</loc>
+      <lastmod>2023-03-07T05:14:57-03:00</lastmod>
     </url>
     
     <url>
@@ -36,8 +116,33 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/latex/</loc>
+      <lastmod>2023-03-07T05:14:57-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/comandos/</loc>
+      <lastmod>2023-03-03T19:40:57-03:00</lastmod>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/comandos-info-linux/</loc>
       <lastmod>2023-03-03T19:40:57-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/hardware/</loc>
+      <lastmod>2023-03-03T19:40:57-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/hardware/</loc>
+      <lastmod>2023-03-03T19:40:57-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/alpine/</loc>
+      <lastmod>2022-11-19T18:18:06-03:00</lastmod>
     </url>
     
     <url>
@@ -51,6 +156,26 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/kvm/</loc>
+      <lastmod>2022-11-19T07:27:30-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/qemu/</loc>
+      <lastmod>2022-11-19T07:27:30-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/virt-manager/</loc>
+      <lastmod>2022-11-19T07:27:30-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/bash/</loc>
+      <lastmod>2022-11-19T01:54:18-03:00</lastmod>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/interesantes-comandos-bash/</loc>
       <lastmod>2022-11-19T01:54:18-03:00</lastmod>
     </url>
@@ -58,6 +183,16 @@
     <url>
       <loc>https://imlauera.github.io/post/como-instalar-casi-cualquier-juego-linux/</loc>
       <lastmod>2022-11-16T05:46:20-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/juegos/</loc>
+      <lastmod>2022-11-16T05:46:20-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/linux/</loc>
+      <lastmod>2022-11-16T02:13:52-03:00</lastmod>
     </url>
     
     <url>
@@ -71,23 +206,48 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/estafa/</loc>
+      <lastmod>2022-11-15T14:53:14-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/offtopic/</loc>
+      <lastmod>2022-11-15T14:53:14-03:00</lastmod>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/como-conectarse-lokinet-en-gnulinux/</loc>
       <lastmod>2022-11-04T06:09:49-03:00</lastmod>
     </url>
     
     <url>
-      <loc>https://imlauera.github.io/post/webp-vs-jpg-png/</loc>
+      <loc>https://imlauera.github.io/tags/lokinet/</loc>
+      <lastmod>2022-11-04T06:09:49-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/formatos/</loc>
       <lastmod>2022-11-04T04:08:47-03:00</lastmod>
     </url>
     
     <url>
-      <loc>https://imlauera.github.io/categories/</loc>
-      <lastmod>2022-11-02T08:38:19-03:00</lastmod>
+      <loc>https://imlauera.github.io/tags/jpeg/</loc>
+      <lastmod>2022-11-04T04:08:47-03:00</lastmod>
     </url>
     
     <url>
-      <loc>https://imlauera.github.io/categories/linux/</loc>
-      <lastmod>2022-11-02T08:38:19-03:00</lastmod>
+      <loc>https://imlauera.github.io/tags/png/</loc>
+      <lastmod>2022-11-04T04:08:47-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/webp/</loc>
+      <lastmod>2022-11-04T04:08:47-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/webp-vs-jpg-png/</loc>
+      <lastmod>2022-11-04T04:08:47-03:00</lastmod>
     </url>
     
     <url>
@@ -97,11 +257,6 @@
     
     <url>
       <loc>https://imlauera.github.io/post/por-que-systemd-es-malo/</loc>
-      <lastmod>2022-11-02T08:38:19-03:00</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/tags/</loc>
       <lastmod>2022-11-02T08:38:19-03:00</lastmod>
     </url>
     
@@ -116,12 +271,22 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/categories/news/</loc>
+      <lastmod>2022-11-02T07:55:35-03:00</lastmod>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/tags/ios/</loc>
       <lastmod>2022-11-02T07:33:35-03:00</lastmod>
     </url>
     
     <url>
       <loc>https://imlauera.github.io/post/ios-bloquea-acceso-a-servidores-con-restriccion-de-edad-de-discord/</loc>
+      <lastmod>2022-11-02T07:33:35-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/noticias/</loc>
       <lastmod>2022-11-02T07:33:35-03:00</lastmod>
     </url>
     
@@ -137,11 +302,6 @@
     
     <url>
       <loc>https://imlauera.github.io/categories/programacion/</loc>
-      <lastmod>2022-11-02T01:44:21-03:00</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/tags/youtube/</loc>
       <lastmod>2022-11-02T01:44:21-03:00</lastmod>
     </url>
     
@@ -181,11 +341,6 @@
     </url>
     
     <url>
-      <loc>https://imlauera.github.io/tags/debian/</loc>
-      <lastmod>2021-01-06T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
       <loc>https://imlauera.github.io/archives/</loc>
       <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     </url>
@@ -199,6 +354,26 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/archivos/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/armado-pc/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/beamer/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/buscadores/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/c/</loc>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/2022-07-12-como-calcular-costo-de-envio-correoargentino/</loc>
     </url>
     
@@ -207,11 +382,31 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/canales-de-audio/</loc>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/cifrando-archivos-en-gnu-linux/</loc>
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/cifrar/</loc>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/comandos-interesantes-para-la-l%C3%ADnea-de-comandos/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/command-line-tool/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/command-line-tool/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/commmand-line-tool/</loc>
     </url>
     
     <url>
@@ -223,6 +418,18 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/correoargentino/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/costo-envio/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/duckduckgo/</loc>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/2022-10-03-el-estado-actual-de-soporte-de-hardware-en-freebsd/</loc>
     </url>
     
@@ -231,7 +438,23 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/exif-viewer/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/extensiones/</loc>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/2020-12-31-extensiones-del-navegador-que-uso/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/freebsd/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/generacion-qt/</loc>
     </url>
     
     <url>
@@ -251,11 +474,59 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/lista/</loc>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/2020-12-31-juegos-que-pude-correr-en-debian-10/</loc>
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/markdown/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/mpv/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/navegador/</loc>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/2022-07-13-no-instales-xq-solo-yq/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/pandoc/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/ponzi/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/powerpoint/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/presentaciones/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/pulseaudio/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/punteros/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/qr/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/resolucion/</loc>
     </url>
     
     <url>
@@ -267,7 +538,23 @@
     </url>
     
     <url>
+      <loc>https://imlauera.github.io/tags/svelte3/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/texto-a-voz/</loc>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/post/2021-04-19-texto-a-voz-en-gnu-linux/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/tty/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/unix/</loc>
     </url>
     
     <url>
@@ -276,5 +563,21 @@
     
     <url>
       <loc>https://imlauera.github.io/post/2022-07-12-usando-mpv-para-mirar-videos-en-pc-s-de-bajos-recursos/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/vim/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/vpn/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/xq/</loc>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/yq/</loc>
     </url>
     </urlset>

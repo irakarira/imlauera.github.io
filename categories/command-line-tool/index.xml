@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>command line tool on Personal Blog</title>
+    <link>https://imlauera.github.io/categories/command-line-tool/</link>
+    <description>Recent content in command line tool on Personal Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="https://imlauera.github.io/categories/command-line-tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exif Viewer</title>
+      <link>https://imlauera.github.io/post/exif-viewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/post/exif-viewer/</guid>
+      <description>https://www.geeksforgeeks.org/installing-and-using-exiftool-on-linux/</description>
+    </item>
+    
+    <item>
+      <title>No instales xq, solo yq</title>
+      <link>https://imlauera.github.io/post/2022-07-13-no-instales-xq-solo-yq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/post/2022-07-13-no-instales-xq-solo-yq/</guid>
+      <description>Hace un tiempo estaba usando xq para convertir XML to JSON. Un par de meses despues decidi retomar el proyecto y al querer instalar xq de nuevo me encontre con que el paquete no estaba disponible en los repositorios oficiales de debian ejecutando:
+sudo apt install xq entonces probe instalarlo ejecutando
+sudo pip install xq Pero me di cuenta que era una version viejisima y no funcionaban los comandos que habia hecho anteriormente.</description>
+    </item>
+    
+    <item>
+      <title>Usando Markdown, Beamer y Pandoc para hacer presentaciones como PowerPoint</title>
+      <link>https://imlauera.github.io/post/2020-12-31-usando-markdown-y-pandoc-para-hacer-presentaciones-como-powerpoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imlauera.github.io/post/2020-12-31-usando-markdown-y-pandoc-para-hacer-presentaciones-como-powerpoint/</guid>
+      <description>Primero de todo tenés que tener el paquete LaTeX instalado. Si usás debian te recomiendo instalar el paquete texlive-full.
+Pandoc es un conversor de documentos libre y de código abierto, mayormente usado como una herramienta de escritura (especialmente por académicos).
+Markdown es un lenguaje de marcado cuya funcionalidad es darle estilo a un texto.
+Abrimos un archivo llamado: hello.md y escribimos
+# Hello World. Esto es una prueba. * Esto es un ítem.</description>
+    </item>
+    
+  </channel>
+</rss>
