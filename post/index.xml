@@ -6,7 +6,52 @@
     <description>Recent content in Posts on Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 07 Mar 2023 05:14:57 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 00:09:11 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como Usar Chatgpt y DALL-E en la Terminal</title>
+      <link>https://imlauera.github.io/post/como-usar-chatgpt-consola/</link>
+      <pubDate>Thu, 23 Mar 2023 00:09:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/como-usar-chatgpt-consola/</guid>
+      <description>Instalación de chatGPT shelll client Primero instalan esto: https://github.com/0xacx/chatGPT-shell-cli Un script de shell simple y liviano para usar chatGPT y DALL-E de OpenAI desde la terminal sin instalar python o node.js. El script usa el modelo oficial de ChatGPT gpt-3.5-turbo con el punto de conexión /chat/completions de la API de OpenAI. También puede utilizar el nuevo modelo gpt-4, si tiene acceso. El script permite el uso de todos los demás modelos de OpenAI con el punto final de finalización y el punto final de imágenes/generaciones para generar imágenes.</description>
+    </item>
+    
+    <item>
+      <title>Como descargar una playlist entera de YouTube y unirla en un solo archivo</title>
+      <link>https://imlauera.github.io/post/download_and_concat/</link>
+      <pubDate>Sun, 19 Mar 2023 03:20:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/download_and_concat/</guid>
+      <description>Descargar toda la playlist y guardarlos en archivos sin espacio para facilitar el trabajo usando ffmpeg yt-dlp -f140 &#39;https://youtu.be/playlist?list=PLff7Jl9WJY9tkiCxOEwAS67pFUBGQMtkE&#39; -o &#39;%(id)s.%(ext)s&#39;
+Guardar todo en un archivo mylist.txt para que ffmpeg pueda juntar los archivos ls -l &amp;gt; mylist.txt agregar file &#39;&#39; a cada nombre de cada video
+archivo del formato de mylist.txt a respetar:
+# this is a comment file &amp;#39;/path/to/file1.wav&amp;#39; file &amp;#39;/path/to/file2.wav&amp;#39; file &amp;#39;/path/to/file3.wav&amp;#39; Lo juntamos con:
+ffmpeg -f concat -safe 0 -i mylist.</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT en Neovim</title>
+      <link>https://imlauera.github.io/post/chatgpt-en-neovim/</link>
+      <pubDate>Thu, 09 Mar 2023 21:05:11 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/chatgpt-en-neovim/</guid>
+      <description>Instala este plugin https://github.com/dpayne/CodeGPT.nvim
+Instalando el plugin usando packer en init.lua agregar
+use(&amp;#34;nvim-lua/plenary.nvim&amp;#34;) use(&amp;#34;MunifTanjim/nui.nvim&amp;#34;) use(&amp;#34;dpayne/CodeGPT.nvim&amp;#34;) Lista de comandos https://github.com/dpayne/CodeGPT.nvim#commands</description>
+    </item>
+    
+    <item>
+      <title>Cambiar DNS de forma permanente en Debian</title>
+      <link>https://imlauera.github.io/post/cambiar_dns_debian/</link>
+      <pubDate>Thu, 09 Mar 2023 18:37:44 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/cambiar_dns_debian/</guid>
+      <description>Una forma que NetworkManager deje de agregar servidores DNS automaticamente Una forma de detener que Network Manager agregue servidores DNS al archivo /etc/resolv.conf es hacer lo siguiente:
+Primero abra el archivo de configuración de nm /etc/NetworkManager/NetworkManager.conf:
+sudo vim /etc/NetworkManager/NetworkManager.conf Luego, agregue lo siguiente a la sección [main]:
+dns=none rc-manager=unmanaged Guarde y salga. Una forma de cambiar los DNS de forma permanente /etc/resolv.conf es un enlace simbólico a /run/resolvconf/resolv.conf. NetworkManager no actualiza directamente /etc/resolv.</description>
+    </item>
+    
     <item>
       <title>Instalacion Minima De LaTeX en Ubuntu Y Distros De Debian Derivadas</title>
       <link>https://imlauera.github.io/post/instalacion-minima-de-latex-en-ubuntu-y-distros-de-debian-derivadas/</link>

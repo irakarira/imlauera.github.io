@@ -1,17 +1,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-      <loc>https://imlauera.github.io/post/instalacion-minima-de-latex-en-ubuntu-y-distros-de-debian-derivadas/</loc>
-      <lastmod>2023-03-07T05:14:57-03:00</lastmod>
+      <loc>https://imlauera.github.io/post/como-usar-chatgpt-consola/</loc>
+      <lastmod>2023-03-23T00:09:11-03:00</lastmod>
     </url>
     
     <url>
       <loc>https://imlauera.github.io/</loc>
-      <lastmod>2023-03-07T05:14:57-03:00</lastmod>
+      <lastmod>2023-03-23T00:09:11-03:00</lastmod>
     </url>
     
     <url>
       <loc>https://imlauera.github.io/post/</loc>
+      <lastmod>2023-03-23T00:09:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/download_and_concat/</loc>
+      <lastmod>2023-03-19T03:20:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/chatgpt-en-neovim/</loc>
+      <lastmod>2023-03-09T21:05:11-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/cambiar_dns_debian/</loc>
+      <lastmod>2023-03-09T18:37:44-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/instalacion-minima-de-latex-en-ubuntu-y-distros-de-debian-derivadas/</loc>
       <lastmod>2023-03-07T05:14:57-03:00</lastmod>
     </url>
     

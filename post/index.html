@@ -12,7 +12,7 @@
 <meta property="og:description" content="LINUX, CODING, GNU LINUX TOOLS, NEWS, VIM, HACKING, MEMES, MUSIC" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://imlauera.github.io/post/" />
-<meta property="og:updated_time" content="2023-03-07T05:14:57-03:00" />
+<meta property="og:updated_time" content="2023-03-23T00:09:11-03:00" />
 
 		<meta itemprop="name" content="Posts">
 <meta itemprop="description" content="LINUX, CODING, GNU LINUX TOOLS, NEWS, VIM, HACKING, MEMES, MUSIC">
@@ -82,12 +82,89 @@
 	</header><article class="list__item post">
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/post/como-usar-chatgpt-consola/" rel="bookmark">
+			Como Usar Chatgpt y DALL-E en la Terminal
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-23T00:09:11-03:00">23.03.2023</time></div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Instalación de chatGPT shelll client Primero instalan esto: https://github.com/0xacx/chatGPT-shell-cli Un script de shell simple y liviano para usar chatGPT y DALL-E de OpenAI desde la terminal sin instalar python o node.js. El script usa el modelo oficial de ChatGPT gpt-3.5-turbo con el punto de conexión /chat/completions de la API de OpenAI. También puede utilizar el nuevo modelo gpt-4, si tiene acceso. El script permite el uso de todos los demás modelos de OpenAI con el punto final de finalización y el punto final de imágenes/generaciones para generar imágenes.
+	</div>
+</article>
+<article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/post/download_and_concat/" rel="bookmark">
+			Como descargar una playlist entera de YouTube y unirla en un solo archivo
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-19T03:20:11-03:00">19.03.2023</time></div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Descargar toda la playlist y guardarlos en archivos sin espacio para facilitar el trabajo usando ffmpeg yt-dlp -f140 'https://youtu.be/playlist?list=PLff7Jl9WJY9tkiCxOEwAS67pFUBGQMtkE' -o '%(id)s.%(ext)s'
+Guardar todo en un archivo mylist.txt para que ffmpeg pueda juntar los archivos ls -l &gt; mylist.txt agregar file '' a cada nombre de cada video
+archivo del formato de mylist.txt a respetar:
+# this is a comment file &#39;/path/to/file1.wav&#39; file &#39;/path/to/file2.wav&#39; file &#39;/path/to/file3.wav&#39; Lo juntamos con:
+ffmpeg -f concat -safe 0 -i mylist.
+	</div>
+</article>
+<article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/post/chatgpt-en-neovim/" rel="bookmark">
+			ChatGPT en Neovim
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-09T21:05:11-03:00">09.03.2023</time></div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Instala este plugin https://github.com/dpayne/CodeGPT.nvim
+Instalando el plugin usando packer en init.lua agregar
+use(&#34;nvim-lua/plenary.nvim&#34;) use(&#34;MunifTanjim/nui.nvim&#34;) use(&#34;dpayne/CodeGPT.nvim&#34;) Lista de comandos https://github.com/dpayne/CodeGPT.nvim#commands
+	</div>
+</article>
+<article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/post/cambiar_dns_debian/" rel="bookmark">
+			Cambiar DNS de forma permanente en Debian
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-09T18:37:44-03:00">09.03.2023</time></div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Una forma que NetworkManager deje de agregar servidores DNS automaticamente Una forma de detener que Network Manager agregue servidores DNS al archivo /etc/resolv.conf es hacer lo siguiente:
+Primero abra el archivo de configuración de nm /etc/NetworkManager/NetworkManager.conf:
+sudo vim /etc/NetworkManager/NetworkManager.conf Luego, agregue lo siguiente a la sección [main]:
+dns=none rc-manager=unmanaged Guarde y salga. Una forma de cambiar los DNS de forma permanente /etc/resolv.conf es un enlace simbólico a /run/resolvconf/resolv.conf. NetworkManager no actualiza directamente /etc/resolv.
+	</div>
+</article>
+<article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/post/instalacion-minima-de-latex-en-ubuntu-y-distros-de-debian-derivadas/" rel="bookmark">
 			Instalacion Minima De LaTeX en Ubuntu Y Distros De Debian Derivadas
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-07T05:14:57-03:00">07.03.2023</time></div></div>
@@ -107,7 +184,7 @@ pdflatex nombre_archivo.tex Si TeX se queja de que faltan archivos, usa apt-file
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-03T19:40:57-03:00">03.03.2023</time></div></div>
@@ -126,7 +203,7 @@ sudo lscpu inxi Muestra informacion sobre la CPU, placa madre, placa de video, d
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-19T18:18:06-03:00">19.11.2022</time></div></div>
@@ -144,7 +221,7 @@ Instalación Busybox es un único ejecutable, ingeniosamente diseñado para reut
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-19T07:27:30-03:00">19.11.2022</time></div></div>
@@ -162,7 +239,7 @@ Agrega tu usuario al grupo libvirt Luego de reiniciar, ejecutar:
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-19T01:54:18-03:00">19.11.2022</time></div></div>
@@ -183,7 +260,7 @@ mpv --ytdl-format=360p https://twitch.tv/nombre_del_canal Ver video de YouTube a
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-16T05:46:20-03:00">16.11.2022</time></div></div>
@@ -203,7 +280,7 @@ Después tenés emuladores de PlayStation 2 (PCSX2),3(RPCS3) y emulador de Gamec
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-16T02:13:52-03:00">16.11.2022</time></div></div>
@@ -221,7 +298,7 @@ El código del kernel Linux es superior al de Windows y al de Mac. En las distro
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-15T14:53:14-03:00">15.11.2022</time></div></div>
@@ -242,7 +319,7 @@ El código del kernel Linux es superior al de Windows y al de Mac. En las distro
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-04T06:09:49-03:00">04.11.2022</time></div></div>
@@ -259,7 +336,7 @@ El código del kernel Linux es superior al de Windows y al de Mac. En las distro
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-04T04:08:47-03:00">04.11.2022</time></div></div>
@@ -277,7 +354,7 @@ Las imágenes sin pérdida de WebP son un 26% más pequeñas en comparación con
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
 </div>
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-02T08:38:19-03:00">02.11.2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/linux/" rel="category">linux</a>
@@ -287,80 +364,6 @@ Las imágenes sin pérdida de WebP son un 26% más pequeñas en comparación con
 	<div class="content list__excerpt post__content clearfix">
 		No es malo en sí, el problema es que es un monolito que sigue agregando utilidades que reemplazan el trabajo de otra herramienta. Debido a que es tan omnipresente, los desarrolladores de software comienzan a escribir aplicaciones que dependen de systemd en lugar de los estándares (o al menos convenciones que no son del todo estándares).
 Por ejemplo, la gente comienza a escribir software usando temporizadores systemd en lugar de cronjobs, y ahora ya no es portátil en sistemas Unix, o incluso en distribuciones Linux, es solo compatible con Linux con systemd.
-	</div>
-</article>
-<article class="list__item post">
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/post/twitter_pagar_8_dolares_mes/" rel="bookmark">
-			Elon Musk quiere que pagues 8 dolares al mes para mantener la verificacion azul
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-02T07:55:35-03:00">02.11.2022</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Tweet Traduccion:  El sistema actual para ver quién tiene o no una marca de verificación azul es una mierda. ¡Poder para la gente! Verificacion Azul por $8/mes. Precio ajustado por país proporcional a la paridad del poder adquisitivo También obtendrá:
- Prioridad en respuestas, menciones y búsqueda, lo cual es esencial para derrotar el spam/estafa Posibilidad de publicar videos y audios largos La mitad de anuncios   Supuestamente es para detener el spam y las estafas.
-	</div>
-</article>
-<article class="list__item post">
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/post/ios-bloquea-acceso-a-servidores-con-restriccion-de-edad-de-discord/" rel="bookmark">
-			iOS Bloquea Acceso a Servidores Con Restriccion De Edad De Discord
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-02T07:33:35-03:00">02.11.2022</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Y previamente habia leido que banearon las VPNs desde la AppStore.
-	</div>
-</article>
-<article class="list__item post">
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/post/youtube_empeoro/" rel="bookmark">
-			El nuevo diseño de YouTube empeoro
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-02T01:44:21-03:00">02.11.2022</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Previamente a esto habian eliminado los dislikes y ahora YouTube ya no permite ordenar la lista de videos de los canales de forma cronológica, por ejemplo para canales que tienen muchos videos era útil la opcion de ordenar los videos mas antiguos al mas reciente. Ahora te obliga a ver los videos mas populares. Ademas de eso tiene esos bordes redondos feos, y es mas lento que la version anterior.
-	</div>
-</article>
-<article class="list__item post">
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/post/zig_programming_language/" rel="bookmark">
-			Instalacion y Hola Mundo en Zig
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">tobbards</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-02T01:44:21-03:00">02.11.2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/programacion/" rel="category">programacion</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Instalación Lo descargan desde https://ziglang.org/download/ Descomprimen el tar.xz con
-$ tar -xvf nombre_del_archivo.tar.xz En este caso descargaremos e instalaremos la ultima version que es la 0.11.0 puede ser que al momento que usted este leyendo esta publicacion exista una nueva version.
-$ cd ~ $ wget https://ziglang.org/builds/zig-linux-x86_64-0.11.0-dev.11+0d192ee9e.tar.xz -O zig.tar.xz &amp;&amp; tar -xvf zig.tar.xz Luego solo basta con linkearlo desde /usr/bin para agregarlo al PATH usando ln
-$ cd /usr/bin $ sudo ln -s ~/zig-linux-x86_64-0.
 	</div>
 </article>
 
@@ -386,11 +389,11 @@ $ cd /usr/bin $ sudo ln -s ~/zig-linux-x86_64-0.
 	<h4 class="widget__title">Más Recientes</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/como-usar-chatgpt-consola/">Como Usar Chatgpt y DALL-E en la Terminal</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/download_and_concat/">Como descargar una playlist entera de YouTube y unirla en un solo archivo</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/chatgpt-en-neovim/">ChatGPT en Neovim</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/cambiar_dns_debian/">Cambiar DNS de forma permanente en Debian</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/instalacion-minima-de-latex-en-ubuntu-y-distros-de-debian-derivadas/">Instalacion Minima De LaTeX en Ubuntu Y Distros De Debian Derivadas</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/comandos-info-linux/">Comandos de consola para obtener informacion del hardware en Linux</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/usando-alpine-como-desktop/">Usando Alpine Linux Como Desktop</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/como-instalar-qemu-kvm-virt-manager/">Como Instalar Qemu Kvm y Virt Manager</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/interesantes-comandos-bash/">Interesantes comandos de Bash</a></li>
 		</ul>
 	</div>
 </div>
