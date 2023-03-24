@@ -15,9 +15,7 @@
       <guid>https://imlauera.github.io/post/download_and_concat/</guid>
       <description>Descargar toda la playlist y guardarlos en archivos sin espacio para facilitar el trabajo usando ffmpeg yt-dlp -f140 &#39;https://youtu.be/playlist?list=PLff7Jl9WJY9tkiCxOEwAS67pFUBGQMtkE&#39; -o &#39;%(id)s.%(ext)s&#39;
 Guardar todo en un archivo mylist.txt para que ffmpeg pueda juntar los archivos ls -1 &amp;gt; mylist.txt agregar file &#39;&#39; a cada nombre de cada video
-archivo del formato de mylist.txt a respetar:
-# this is a comment file &amp;#39;/path/to/file1.wav&amp;#39; file &amp;#39;/path/to/file2.wav&amp;#39; file &amp;#39;/path/to/file3.wav&amp;#39; Lo juntamos con:
-ffmpeg -f concat -safe 0 -i mylist.</description>
+asi te tiene que quedar mylist.txt despues de agregar file &#39; al principio del nombre del archivo y la comilla al final del nombre del archivo (esto con vim se hace rapido usando ubicando el cursor al inicio Esc+ Ctrl+V y baja hasta la ultima linea luego Shift+i escribi file &#39; y Esc, lo mismo para agregar la comilla al final)</description>
     </item>
     
   </channel>
