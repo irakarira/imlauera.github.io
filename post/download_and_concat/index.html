@@ -122,7 +122,7 @@ agregar file '' a cada nombre de cada video
 (Esto con vim se hace rapido usando ubicando el cursor al inicio Esc+ Ctrl+V y baja hasta la ultima linea luego Shift+i escribi file ' y Esc,
 lo mismo para agregar la comilla al final)</p>
 <p>O pueden usar este comando:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">touch mylist.txt ; <span style="color:#66d9ef">for</span> file in *.m4a ; <span style="color:#66d9ef">do</span> echo <span style="color:#e6db74">&#34;file &#39;</span>$file<span style="color:#e6db74">&#39;&#34;</span> &gt;&gt; mylist.txt ; <span style="color:#66d9ef">done</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">touch mylist.txt <span style="color:#f92672">&amp;&amp;</span> <span style="color:#66d9ef">for</span> file in *.m4a ; <span style="color:#66d9ef">do</span> echo <span style="color:#e6db74">&#34;file &#39;</span>$file<span style="color:#e6db74">&#39;&#34;</span> &gt;&gt; mylist.txt ; <span style="color:#66d9ef">done</span>
 </code></pre></div><p>asi te tiene que quedar mylist.txt despues de agregar file ' al principio del nombre del archivo y la comilla al final del nombre del archivo</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">file <span style="color:#e6db74">&#39;file1.m4a&#39;</span>
 file <span style="color:#e6db74">&#39;file2.m4a&#39;</span>
