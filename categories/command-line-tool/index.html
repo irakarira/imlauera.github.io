@@ -95,9 +95,8 @@
 </div></div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		Descargar toda la playlist y guardarlos en archivos sin espacio para facilitar el trabajo usando ffmpeg yt-dlp -f140 'https://youtu.be/playlist?list=PLff7Jl9WJY9tkiCxOEwAS67pFUBGQMtkE' -o '%(id)s.%(ext)s'
+		Descargar toda la playlist y guardarlos en archivos sin espacio para facilitar el trabajo usando ffmpeg En este caso vamos a bajar el audio solamente, si queremos el video podemos usar la opcion -f18 o -f22 entre otras opciones. Si ponen -F en vez de -f les tira una lista de calidades disponibles. yt-dlp -f 140 'https://youtu.be/playlist?list=PLff7Jl9WJY9tkiCxOEwAS67pFUBGQMtkE' -o '%(id)s.%(ext)s'
 Guardar todo en un archivo mylist.txt para que ffmpeg pueda juntar los archivos pueden usar este comando:
-touch mylist.txt &amp;&amp; for file in *.m4a ; do echo &#34;file &#39;$file&#39;&#34; &gt;&gt; mylist.txt ; done asi te tiene que quedar mylist.txt despues de agregar file ' al principio del nombre del archivo y la comilla al final del nombre del archivo
 	</div>
 </article>
 <article class="list__item post">
