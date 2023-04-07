@@ -6,7 +6,17 @@
     <description>Recent content in command line tool on Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 19 Mar 2023 03:20:11 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/categories/command-line-tool/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Apr 2023 06:52:55 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/categories/command-line-tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como buscar en DuckDuckGo desde la terminal</title>
+      <link>https://imlauera.github.io/post/how_to_search_the_web_from_linux_terminal/</link>
+      <pubDate>Fri, 07 Apr 2023 06:52:55 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/how_to_search_the_web_from_linux_terminal/</guid>
+      <description>Instalación git clone https://github.com/jarun/ddgr.git sudo cp ddgr /usr/local/bin Buscamos Y ahora para buscar algo ejecutamos:
+ddgr esto es una prueba </description>
+    </item>
+    
     <item>
       <title>Como descargar una playlist entera de YouTube y unirla en un solo archivo</title>
       <link>https://imlauera.github.io/post/download_and_concat/</link>
