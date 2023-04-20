@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>publicidad on Personal Blog</title>
+    <link>https://imlauera.github.io/tags/publicidad/</link>
+    <description>Recent content in publicidad on Personal Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 20 Apr 2023 07:18:28 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/tags/publicidad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como mirar YouTube en el celular sin publicidad</title>
+      <link>https://imlauera.github.io/post/youtube_mobile_alternatives/</link>
+      <pubDate>Thu, 20 Apr 2023 07:18:28 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/youtube_mobile_alternatives/</guid>
+      <description>Alternativas a YouTube sin publicidad. Desde la F-droid pueden bajarse:
+  LibreTube
+  NewPipe Observación: Estos dos clientes no tienen el algoritmo de recomendacion de videos, pero funcionan bien.
+  YouTube Revanced
+  </description>
+    </item>
+    
+  </channel>
+</rss>

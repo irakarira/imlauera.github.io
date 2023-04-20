@@ -6,7 +6,29 @@
     <description>Recent content on Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 07 Apr 2023 06:52:55 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 07:23:14 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spotify Premium sin publicidad en Android</title>
+      <link>https://imlauera.github.io/post/spotify_sin_publicidad/</link>
+      <pubDate>Thu, 20 Apr 2023 07:23:14 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/spotify_sin_publicidad/</guid>
+      <description>Para usar Spotify Premium sin publicidad, pueden bajar cualquier version de Spotify: xManager</description>
+    </item>
+    
+    <item>
+      <title>Como mirar YouTube en el celular sin publicidad</title>
+      <link>https://imlauera.github.io/post/youtube_mobile_alternatives/</link>
+      <pubDate>Thu, 20 Apr 2023 07:18:28 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/youtube_mobile_alternatives/</guid>
+      <description>Alternativas a YouTube sin publicidad. Desde la F-droid pueden bajarse:
+  LibreTube
+  NewPipe Observación: Estos dos clientes no tienen el algoritmo de recomendacion de videos, pero funcionan bien.
+  YouTube Revanced
+  </description>
+    </item>
+    
     <item>
       <title>Como buscar en DuckDuckGo desde la terminal</title>
       <link>https://imlauera.github.io/post/how_to_search_the_web_from_linux_terminal/</link>
