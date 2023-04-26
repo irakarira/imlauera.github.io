@@ -1,17 +1,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-      <loc>https://imlauera.github.io/post/como_usar_tu_pc_sin_mouse/</loc>
-      <lastmod>2023-04-23T10:48:12-03:00</lastmod>
+      <loc>https://imlauera.github.io/categories/</loc>
+      <lastmod>2023-04-26T01:51:01-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/command-line-tool/</loc>
+      <lastmod>2023-04-26T01:51:01-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/fzf/</loc>
+      <lastmod>2023-04-26T01:51:01-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/fzf/</loc>
+      <lastmod>2023-04-26T01:51:01-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/fzf/</loc>
+      <lastmod>2023-04-26T01:51:01-03:00</lastmod>
     </url>
     
     <url>
       <loc>https://imlauera.github.io/</loc>
-      <lastmod>2023-04-23T10:48:12-03:00</lastmod>
+      <lastmod>2023-04-26T01:51:01-03:00</lastmod>
     </url>
     
     <url>
       <loc>https://imlauera.github.io/post/</loc>
+      <lastmod>2023-04-26T01:51:01-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/</loc>
+      <lastmod>2023-04-26T01:51:01-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/ai/</loc>
+      <lastmod>2023-04-26T01:39:13-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/ai/</loc>
+      <lastmod>2023-04-26T01:39:13-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/alternativa_github_copilot_otro_chatai/</loc>
+      <lastmod>2023-04-26T01:39:13-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/chat/</loc>
+      <lastmod>2023-04-26T01:39:13-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/copilot/</loc>
+      <lastmod>2023-04-26T01:39:13-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/como_usar_tu_pc_sin_mouse/</loc>
       <lastmod>2023-04-23T10:48:12-03:00</lastmod>
     </url>
     
@@ -27,11 +82,6 @@
     
     <url>
       <loc>https://imlauera.github.io/categories/android/</loc>
-      <lastmod>2023-04-20T07:23:14-03:00</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/categories/</loc>
       <lastmod>2023-04-20T07:23:14-03:00</lastmod>
     </url>
     
@@ -62,11 +112,6 @@
     
     <url>
       <loc>https://imlauera.github.io/post/spotify_sin_publicidad/</loc>
-      <lastmod>2023-04-20T07:23:14-03:00</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/tags/</loc>
       <lastmod>2023-04-20T07:23:14-03:00</lastmod>
     </url>
     
@@ -112,11 +157,6 @@
     
     <url>
       <loc>https://imlauera.github.io/categories/buscadores/</loc>
-      <lastmod>2023-04-07T06:52:55-03:00</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/categories/command-line-tool/</loc>
       <lastmod>2023-04-07T06:52:55-03:00</lastmod>
     </url>
     
@@ -408,11 +448,6 @@
     <url>
       <loc>https://imlauera.github.io/tags/zig/</loc>
       <lastmod>2022-11-02T01:44:21-03:00</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/tags/copilot/</loc>
-      <lastmod>2022-10-20T00:00:00+00:00</lastmod>
     </url>
     
     <url>
