@@ -9,7 +9,8 @@
 	<meta name="description" content="">
 		
 		<meta property="og:title" content="Crear Stream de audio, radio digital usando icecast darkice" />
-<meta property="og:description" content="Instalar icecast y darkice Resumidamente IceCast crea el servidor y darkice transmite el audio a ese servidor. En este caso veremos como podemos transmitir el audio interno de tu computadora a la red LAN (se puede hacer a traves de internet tambien)
+<meta property="og:description" content="No necesitan usar SoundWire ni pagar la version premium
+Instalar icecast y darkice Resumidamente IceCast crea el servidor y darkice transmite el audio a ese servidor. En este caso veremos como podemos transmitir el audio interno de tu computadora a la red LAN (se puede hacer a traves de internet tambien)
 Primero, se instalará un servidor de streaming.
 Instalar icecast2 (sudo apt install icecast2). Editar el fichero /etc/icecast2/icecast.xml para escuchar en todas las IP del PC, descomentando y poniendo:" />
 <meta property="og:type" content="article" />
@@ -18,12 +19,13 @@ Instalar icecast2 (sudo apt install icecast2). Editar el fichero /etc/icecast2/i
 <meta property="article:modified_time" content="2023-04-30T17:12:55-03:00" />
 
 		<meta itemprop="name" content="Crear Stream de audio, radio digital usando icecast darkice">
-<meta itemprop="description" content="Instalar icecast y darkice Resumidamente IceCast crea el servidor y darkice transmite el audio a ese servidor. En este caso veremos como podemos transmitir el audio interno de tu computadora a la red LAN (se puede hacer a traves de internet tambien)
+<meta itemprop="description" content="No necesitan usar SoundWire ni pagar la version premium
+Instalar icecast y darkice Resumidamente IceCast crea el servidor y darkice transmite el audio a ese servidor. En este caso veremos como podemos transmitir el audio interno de tu computadora a la red LAN (se puede hacer a traves de internet tambien)
 Primero, se instalará un servidor de streaming.
 Instalar icecast2 (sudo apt install icecast2). Editar el fichero /etc/icecast2/icecast.xml para escuchar en todas las IP del PC, descomentando y poniendo:">
 <meta itemprop="datePublished" content="2023-04-30T17:12:55-03:00" />
 <meta itemprop="dateModified" content="2023-04-30T17:12:55-03:00" />
-<meta itemprop="wordCount" content="479">
+<meta itemprop="wordCount" content="488">
 
 
 
@@ -32,7 +34,8 @@ Instalar icecast2 (sudo apt install icecast2). Editar el fichero /etc/icecast2/i
 		
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Crear Stream de audio, radio digital usando icecast darkice"/>
-<meta name="twitter:description" content="Instalar icecast y darkice Resumidamente IceCast crea el servidor y darkice transmite el audio a ese servidor. En este caso veremos como podemos transmitir el audio interno de tu computadora a la red LAN (se puede hacer a traves de internet tambien)
+<meta name="twitter:description" content="No necesitan usar SoundWire ni pagar la version premium
+Instalar icecast y darkice Resumidamente IceCast crea el servidor y darkice transmite el audio a ese servidor. En este caso veremos como podemos transmitir el audio interno de tu computadora a la red LAN (se puede hacer a traves de internet tambien)
 Primero, se instalará un servidor de streaming.
 Instalar icecast2 (sudo apt install icecast2). Editar el fichero /etc/icecast2/icecast.xml para escuchar en todas las IP del PC, descomentando y poniendo:"/>
 
@@ -116,12 +119,13 @@ Instalar icecast2 (sudo apt install icecast2). Editar el fichero /etc/icecast2/i
 	</div>
 </div>
 <div class="content post__content clearfix">
-			<h3 id="instalar-icecast-y-darkice">Instalar icecast y darkice</h3>
+			<p>No necesitan usar SoundWire ni pagar la version premium</p>
+<h3 id="instalar-icecast-y-darkice">Instalar icecast y darkice</h3>
 <p>Resumidamente IceCast crea el servidor y darkice transmite el audio a ese servidor.
 En este caso veremos como podemos transmitir el audio interno de tu computadora a la red LAN (se puede hacer a traves de internet tambien)</p>
 <p>Primero, se instalará un servidor de streaming.</p>
-<p>Instalar icecast2 (sudo apt install icecast2).
-Editar el fichero /etc/icecast2/icecast.xml para escuchar en todas las IP del PC, descomentando y poniendo:</p>
+<p>Instalar icecast2 (<code>sudo apt install icecast2</code>).
+Editar el fichero <code>/etc/icecast2/icecast.xml</code> para escuchar en todas las IP del PC, descomentando y poniendo:</p>
 <h4 id="configurar-icecast">Configurar icecast</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;bind-adress&gt;0.0.0.0&lt;/bind-adress&gt;
 </code></pre></div><p>Asi me quedo esa parte a mi:</p>
@@ -155,7 +159,7 @@ bitrateMode <span style="color:#f92672">=</span> vbr <span style="color:#75715e"
 quality <span style="color:#f92672">=</span> 1.0 <span style="color:#75715e"># 1.0 is best quality</span>
 format <span style="color:#f92672">=</span> mp3 <span style="color:#75715e"># format</span>
 bitrate <span style="color:#f92672">=</span> <span style="color:#ae81ff">256</span> <span style="color:#75715e"># bitrate</span>
-server <span style="color:#f92672">=</span> 192.168.0.201 <span style="color:#75715e"># or IP</span>
+server <span style="color:#f92672">=</span> localhost <span style="color:#75715e"># or IP</span>
 port <span style="color:#f92672">=</span> <span style="color:#ae81ff">5553</span> <span style="color:#75715e"># port for IceCast2 access</span>
 password <span style="color:#f92672">=</span> hackme <span style="color:#75715e"># source password to the IceCast2 server</span>
 mountPoint <span style="color:#f92672">=</span> mystream.mp3 <span style="color:#75715e"># mount point on the IceCast2 server or any name</span>
