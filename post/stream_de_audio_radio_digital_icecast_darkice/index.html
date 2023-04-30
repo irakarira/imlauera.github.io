@@ -23,7 +23,7 @@ Primero, se instalará un servidor de streaming.
 Instalar icecast2 (sudo apt install icecast2). Editar el fichero /etc/icecast2/icecast.xml para escuchar en todas las IP del PC, descomentando y poniendo:">
 <meta itemprop="datePublished" content="2023-04-30T17:12:55-03:00" />
 <meta itemprop="dateModified" content="2023-04-30T17:12:55-03:00" />
-<meta itemprop="wordCount" content="458">
+<meta itemprop="wordCount" content="479">
 
 
 
@@ -124,6 +124,14 @@ En este caso veremos como podemos transmitir el audio interno de tu computadora 
 Editar el fichero /etc/icecast2/icecast.xml para escuchar en todas las IP del PC, descomentando y poniendo:</p>
 <h4 id="configurar-icecast">Configurar icecast</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;bind-adress&gt;0.0.0.0&lt;/bind-adress&gt;
+</code></pre></div><p>Asi me quedo esa parte a mi:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&lt;hostname&gt;192.168.0.201&lt;/hostname&gt;
+&lt;!-- You may have multiple &lt;listen-socket&gt; elements --&gt;
+&lt;listen-socket&gt;
+&lt;port&gt;5553&lt;/port&gt;
+&lt;bind-address&gt;0.0.0.0&lt;/bind-address&gt;
+&lt;shoutcast-mount&gt;/stream&lt;/shoutcast-mount&gt;
+&lt;/listen-socket&gt;
 </code></pre></div><p>Yo cambie el puerto a 5553 y en el hostname puse mi IP local</p>
 <p>Arrancar icecast2 con:
 <code>sudo /etc/init.d/icecast2 restart</code>
