@@ -13,7 +13,7 @@
 <meta property="og:description" content="LINUX, CODING, GNU LINUX TOOLS, NEWS, VIM, HACKING, MEMES, MUSIC" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://imlauera.github.io/" />
-<meta property="og:updated_time" content="2023-04-26T01:51:01-03:00" />
+<meta property="og:updated_time" content="2023-04-30T17:12:55-03:00" />
 
 		<meta itemprop="name" content="Personal Blog">
 <meta itemprop="description" content="LINUX, CODING, GNU LINUX TOOLS, NEWS, VIM, HACKING, MEMES, MUSIC">
@@ -81,6 +81,29 @@
 	<header class="main__header">
 		<h1 class="main__title">Personal Blog</h1>
 	</header><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/post/stream_de_audio_radio_digital_icecast_darkice/" rel="bookmark">
+			Crear Stream de audio, radio digital usando icecast darkice
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-04-30T17:12:55-03:00">30.04.2023</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/command-line-tools/" rel="category">command line tools</a>, <a class="meta__link" href="/categories/radio/" rel="category">radio</a>, <a class="meta__link" href="/categories/audio/" rel="category">audio</a>, <a class="meta__link" href="/categories/stream/" rel="category">stream</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		En este caso veremos como podemos transmitir el audio interno de tu computadora a la red LAN (se puede hacer a traves de internet tambien)
+Primero, se instalará un servidor de streaming.
+Instalar icecast2 (sudo apt install icecast2). Editar el fichero /etc/icecast2/icecast.xml para escuchar en todas las IP del PC, descomentando y poniendo:
+&lt;bind-adress&gt;0.0.0.0&lt;/bind-adress&gt; Yo cambie el puerto a 5553 y en el hostname puse mi IP local
+Arrancar icecast2 con: sudo /etc/init.
+	</div>
+</article>
+<article class="list__item post">
 	<header class="list__header">
 		<h2 class="list__title post__title">
 			<a href="/post/fzf/" rel="bookmark">
@@ -360,26 +383,6 @@ sudo lscpu inxi Muestra informacion sobre la CPU, placa madre, placa de video, d
 Instalación Busybox es un único ejecutable, ingeniosamente diseñado para reutilizar tanto como sea posible internamente y simular aplicaciones independientes por medio de enlaces simbólicos.
 	</div>
 </article>
-<article class="list__item post">
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/post/como-instalar-qemu-kvm-virt-manager/" rel="bookmark">
-			Como Instalar Qemu Kvm y Virt Manager
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">imla</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-19T07:27:30-03:00">19.11.2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/linux/" rel="category">linux</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Instalación sudo apt install -y virt-manager qemu qemu-system-x86 libvirt-daemon-system bridge-utils libvirt0 qemu-utils Después de instalar libvirt-daemon-system, el usuario utilizado para administrar máquinas virtuales deberá agregarse al grupo libvirt. Esto se hace automáticamente para los miembros del grupo sudo, pero debe hacerse además para cualquier otra persona que deba acceder a los recursos libvirt de todo el sistema. Al hacerlo, el usuario tendrá acceso a las opciones de red avanzadas.
-Agrega tu usuario al grupo libvirt Luego de reiniciar, ejecutar:
-	</div>
-</article>
 
 		
 <div class="pagination">
@@ -402,11 +405,11 @@ Agrega tu usuario al grupo libvirt Luego de reiniciar, ejecutar:
 	<h4 class="widget__title">Más Recientes</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/stream_de_audio_radio_digital_icecast_darkice/">Crear Stream de audio, radio digital usando icecast darkice</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/fzf/">Fzf</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/alternativa_github_copilot_otro_chatai/">Alternativa a GitHub Copilot, y otro chatai</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/como_usar_tu_pc_sin_mouse/">Como dejar de usar el mouse</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/controlar_android_desde_terminal/">Controlar android desde terminal usando ADB</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/spotify_sin_publicidad/">Spotify Premium sin publicidad en Android</a></li>
 		</ul>
 	</div>
 </div>
@@ -422,10 +425,16 @@ Agrega tu usuario al grupo libvirt Luego de reiniciar, ejecutar:
 				<a class="widget__link" href="/categories/android/">android</a>
 			</li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/audio/">audio</a>
+			</li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/buscadores/">buscadores</a>
 			</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/command-line-tool/">command line tool</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/command-line-tools/">command line tools</a>
 			</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/editores/">editores</a>
@@ -461,7 +470,13 @@ Agrega tu usuario al grupo libvirt Luego de reiniciar, ejecutar:
 				<a class="widget__link" href="/categories/programacion/">programacion</a>
 			</li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/radio/">radio</a>
+			</li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/spotify/">spotify</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/stream/">stream</a>
 			</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/unix/">unix</a>
@@ -481,6 +496,7 @@ Agrega tu usuario al grupo libvirt Luego de reiniciar, ejecutar:
 		<a class="widget-taglist__link widget__link btn" href="/tags/android/" title="android">android</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/archivos/" title="archivos">archivos</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/armado-pc/" title="armado pc">armado pc</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/audio/" title="audio">audio</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/bash/" title="bash">bash</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/beamer/" title="beamer">beamer</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/buscador/" title="buscador">buscador</a>
@@ -502,6 +518,7 @@ Agrega tu usuario al grupo libvirt Luego de reiniciar, ejecutar:
 		<a class="widget-taglist__link widget__link btn" href="/tags/debian/" title="debian">debian</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/debian-testing/" title="debian testing">debian testing</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/descargar/" title="descargar">descargar</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/digital/" title="digital">digital</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dns/" title="dns">dns</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/duckduckgo/" title="duckduckgo">duckduckgo</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/elon-musk/" title="elon musk">elon musk</a>
@@ -539,9 +556,11 @@ Agrega tu usuario al grupo libvirt Luego de reiniciar, ejecutar:
 		<a class="widget-taglist__link widget__link btn" href="/tags/qemu/" title="qemu">qemu</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/qr/" title="qr">qr</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/quitar/" title="quitar">quitar</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/radio/" title="radio">radio</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/remove/" title="remove">remove</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/resolucion/" title="resolucion">resolucion</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/spotify/" title="spotify">spotify</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/stream/" title="stream">stream</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/svelte3/" title="svelte3">svelte3</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/systemd/" title="systemd">systemd</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/texto-a-voz/" title="texto a voz">texto a voz</a>
