@@ -6,7 +6,25 @@
     <description>Recent content on FROM THE DARK PAST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 30 Apr 2023 17:12:55 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 May 2023 18:02:21 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No uses tmux</title>
+      <link>https://imlauera.github.io/post/no_uses_tmux/</link>
+      <pubDate>Thu, 11 May 2023 18:02:21 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/no_uses_tmux/</guid>
+      <description>Esta sobrecargado de funciones que no las vas a usar y DVTM es mas ligero y rapido, mejor usa DVTM o VIM TABS. Es mejor VIM Tabs porque no te rompe los colores como Tmux y DVTM.</description>
+    </item>
+    
+    <item>
+      <title>Howto Install Opencard Debian</title>
+      <link>https://imlauera.github.io/howto-install-opencard-debian/</link>
+      <pubDate>Mon, 08 May 2023 22:51:50 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/howto-install-opencard-debian/</guid>
+      <description>Instalacion de OpenCard en Debian </description>
+    </item>
+    
     <item>
       <title>Crear Stream de audio, radio digital usando icecast darkice</title>
       <link>https://imlauera.github.io/post/stream_de_audio_radio_digital_icecast_darkice/</link>
