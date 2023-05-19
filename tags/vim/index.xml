@@ -5,7 +5,18 @@
     <link>https://imlauera.github.io/tags/vim/</link>
     <description>Recent content in vim on FROM THE DARK PAST</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="https://imlauera.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language>
+    <lastBuildDate>Thu, 18 May 2023 22:10:51 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compilar_vim</title>
+      <link>https://imlauera.github.io/post/compilar_vim/</link>
+      <pubDate>Thu, 18 May 2023 22:10:51 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/compilar_vim/</guid>
+      <description>Como compilar la utima version de VIM git clone https://github.com/vim/vim.git cd vim/src make make test sudo make install vim --version O pueden bajar el appimage desde aca: https://github.com/vim/vim-appimage
+Si quieren aprender como usar VIM recomiendo el curso de ThePrimeagen en YouTube aunque el ahora recomienda usuar neovim que es escencialmente lo mismo pero usa LUA como lenguaje de programacion para la configuracion, VIM tiene su propio lenguaje de programacion.</description>
+    </item>
+    
     <item>
       <title>Como uso VIM, guía definitiva.</title>
       <link>https://imlauera.github.io/post/2021-01-02-como-uso-vim-un-resumen-de-sus-funciones-principales/</link>

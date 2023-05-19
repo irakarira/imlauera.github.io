@@ -1,23 +1,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+      <loc>https://imlauera.github.io/categories/</loc>
+      <lastmod>2023-05-18T22:10:51-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/compilar_vim/</loc>
+      <lastmod>2023-05-18T22:10:51-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/compile/</loc>
+      <lastmod>2023-05-18T22:10:51-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/categories/editor/</loc>
+      <lastmod>2023-05-18T22:10:51-03:00</lastmod>
+    </url>
+    
+    <url>
       <loc>https://imlauera.github.io/</loc>
-      <lastmod>2023-05-11T18:02:21-03:00</lastmod>
+      <lastmod>2023-05-18T22:10:51-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/post/</loc>
+      <lastmod>2023-05-18T22:10:51-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/</loc>
+      <lastmod>2023-05-18T22:10:51-03:00</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://imlauera.github.io/tags/vim/</loc>
+      <lastmod>2023-05-18T22:10:51-03:00</lastmod>
     </url>
     
     <url>
       <loc>https://imlauera.github.io/post/no_uses_tmux/</loc>
       <lastmod>2023-05-11T18:02:21-03:00</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/post/</loc>
-      <lastmod>2023-05-11T18:02:21-03:00</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/categories/</loc>
-      <lastmod>2023-05-08T22:51:50-03:00</lastmod>
     </url>
     
     <url>
@@ -52,11 +77,6 @@
     
     <url>
       <loc>https://imlauera.github.io/tags/opencard/</loc>
-      <lastmod>2023-05-08T22:51:50-03:00</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/tags/</loc>
       <lastmod>2023-05-08T22:51:50-03:00</lastmod>
     </url>
     
@@ -766,10 +786,6 @@
     
     <url>
       <loc>https://imlauera.github.io/post/2022-07-12-usando-mpv-para-mirar-videos-en-pc-s-de-bajos-recursos/</loc>
-    </url>
-    
-    <url>
-      <loc>https://imlauera.github.io/tags/vim/</loc>
     </url>
     
     <url>
