@@ -6,7 +6,16 @@
     <description>Recent content in Posts on FROM THE DARK PAST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 18 May 2023 22:10:51 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 May 2023 04:51:28 -0300</lastBuildDate><atom:link href="https://imlauera.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posibles riesgos con los nuevos dominios de google: zip y mov</title>
+      <link>https://imlauera.github.io/post/nuevos_dominios_de_google_zip_provocar_ataques_de_phishing/</link>
+      <pubDate>Sat, 27 May 2023 04:51:28 -0300</pubDate>
+      
+      <guid>https://imlauera.github.io/post/nuevos_dominios_de_google_zip_provocar_ataques_de_phishing/</guid>
+      <description>Google anuncio nuevos dominios que hacen referencia a extensiones de archivos .zip y .mov son los nuevos dominios de Google. La preocupación, es que las URL que se parecen a nombres de archivo darán aún más posibilidades a estafas digitales como el https://es.wikipedia.org/wiki/Phishing, que engañan a los internautas para que hagan clic en enlaces maliciosos que se hacen pasar por algo legítimo. Y los dos dominios también podrían agravar el problema de los programas que reconocen erróneamente nombres de archivo como URL y les añaden automáticamente enlaces.</description>
+    </item>
+    
     <item>
       <title>Compilar vim</title>
       <link>https://imlauera.github.io/post/compilar_vim/</link>
